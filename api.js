@@ -8,8 +8,8 @@ const cotarAcao = async () => {
 
   const imagem = response.sprites.front_default
   const nome = response.name
-  const altura = response.height
-  const peso = response.weight
+  const altura = response.height /10
+  const peso = response.weight /10
   const tipo = response.types[0].type.name
   const id = response.id
 
@@ -26,4 +26,5 @@ button.addEventListener("click", cotarAcao)
 //await = freio para carregar
 //fetch = requisição
 //getElementById = busca no html
+
 //.json = conversor de promessas em js
