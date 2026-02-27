@@ -28,3 +28,4 @@ button.addEventListener("click", cotarAcao)
 //getElementById = busca no html
 
 //.json = conversor de promessas em js
+
