@@ -23,9 +23,5 @@ const cotarAcao = async () => {
 
 button.addEventListener("click", cotarAcao)
 
-//await = freio para carregar
-//fetch = requisição
-//getElementById = busca no html
 
-//.json = conversor de promessas em js
 
