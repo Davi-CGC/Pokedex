@@ -2,7 +2,7 @@ const pesquisa = document.getElementById("pesquisa")
 const button = document.getElementById("button")
 const divResultado = document.getElementById("resultado")
 
-const cotarAcao = async () => {
+const buscar = async () => {
   const acao = pesquisa.value 
   const response = await (await fetch(`https://pokeapi.co/api/v2/pokemon/${acao}`)).json()
 
@@ -21,7 +21,8 @@ const cotarAcao = async () => {
   <p>Peso: ${peso}Kg</p>`
 }
 
-button.addEventListener("click", cotarAcao)
+button.addEventListener("click", buscar)
+
 
 
 
